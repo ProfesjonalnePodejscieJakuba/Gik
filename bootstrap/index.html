@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moja Strona</title>
+    <title>Strona Jakuba</title>
     
-    
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     
-   
+    <!-- Własny styl -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-    <!-- Menu -->
+    <!-- Menu nawigacyjne -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">my menu</a>
+        <a class="navbar-brand" href="#">Menu</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -25,7 +25,7 @@
                     <a class="nav-link" href="#">Strona Główna</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">O Nas</a>
+                    <a class="nav-link" href="#">O Mnie</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Kontakt</a>
@@ -34,75 +34,74 @@
         </div>
     </nav>
 
-   
-  
+    <!-- Alert -->
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Uwaga!</strong> Ostrzeżenie.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
 
-    
+    <!-- Sekcja główna -->
     <div class="container">
-        <h1>Jakub Szymaniak U-20778</h1>
-        <p>Strona<br>Moja tabela</p>
+        <h1>Witaj u Jakuba</h1>
+        <p>Bootstrap<br>Tabela</p>
         
+        <!-- Tabela -->
         <table class="table table-bordered">
             <thead>
                 <tr>
-                  <th colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
-                  <th colspan="2" rowspan="2"></th>
-                  <th rowspan="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                    <th colspan="2">Nagłówek 1</th>
+                    <th colspan="2" rowspan="2">Nagłówek 2</th>
+                    <th rowspan="4">Nagłówek 3</th>
                 </tr>
                 <tr>
-                  <th colspan="2"></th>
+                    <th colspan="2">Nagłówek 4</th>
                 </tr>
                 <tr>
-                  <th colspan="2"></th>
-                  <th colspan="2" rowspan="2"></th>
+                    <th colspan="2">Nagłówek 5</th>
+                    <th colspan="2" rowspan="2">Nagłówek 6</th>
                 </tr>
                 <tr>
-                  <th colspan="2"></th>
-                </tr></thead>
-              <tbody>
+                    <th colspan="2">Nagłówek 7</th>
+                </tr>
+            </thead>
+            <tbody>
                 <tr>
-                  <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                  <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                  <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                  <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                  <td></td>
+                    <td>Komórka 1</td>
+                    <td>Komórka 2</td>
+                    <td>Komórka 3</td>
+                    <td>Komórka 4</td>
+                    <td>Komórka 5</td>
                 </tr>
                 <tr>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
+                    <td>Komórka 6</td>
+                    <td>Komórka 7</td>
+                    <td>Komórka 8</td>
+                    <td>Komórka 9</td>
+                    <td>Komórka 10</td>
                 </tr>
                 <tr>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
+                    <td colspan="5">Łączenie komórek na całej szerokości</td>
                 </tr>
-                <tr>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td colspan="5"></td>
-                </tr>
-              </tbody></table>
-        
+            </tbody>
+        </table>
     </div>
 
+    <!-- Sekcja z przyciskiem -->
+    <div class="container">
+        <p>Sprawdzam</p>
+        <section>
+            <button id="button" class="btn btn-primary">Przycisk</button>
+            <p>Sprawdzanko</p>
+        </section>
+    </div>
+
+    <p>Test</p>
     
-     
-      
-   
+    <!-- Skrypty -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    
-    
     <script src="js/scripts.js"></script>
 </body>
 </html>
